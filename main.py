@@ -1,6 +1,6 @@
 #import dependencies
 import time
-import PIL 
+import PIL #unused
 from kill_messages import kill_fd_msg,kill_bow_msg,kill_msg,kill_void_msg,bed_break_msg #list of kill/bed break messages
 import pandas as pd
 
@@ -14,7 +14,7 @@ def follow(thefile):
             continue
         yield line
 
-imglink = "https://cravatar.eu/helmavatar/{}/256.png"
+imglink = "https://cravatar.eu/helmavatar/{}/256.png" #unused
 
 #path to chat logs (e.g. C:\Users\Pyro\AppData\Roaming\.minecraft\logs\latest.log)
 logpath = ""

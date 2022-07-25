@@ -14,8 +14,8 @@ BedwarsScoreboard is a Python program that reads Minecraft chat logs and outputs
 This version is functional, however it requires manual input of player usernames and does not output to any sort of web server or image file, so it's largely unusable at the moment, and is more of a baseline for future versions.
 
 ## TO-DO:
- • Code/find mod that allows for the exporting of player usernames to chat/other logs
- • Integrate exported player usernames into the program
- • Create and polish scoreboard design
- • Use either Google Slides or the Pillow library to update the scoreboard live from the program
- • Output finished image to file/web server in order to use it as an overlay in OBS
+  • Code/find mod that allows for the exporting of player usernames to chat/other logs
+  • Integrate exported player usernames into the program
+  • Create and polish scoreboard design
+  • Use either Google Slides or the Pillow library to update the scoreboard live from the program
+  • Output finished image to file/web server in order to use it as an overlay in OBS

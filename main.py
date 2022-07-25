@@ -15,11 +15,13 @@ def follow(thefile):
         yield line
 
 imglink = "https://cravatar.eu/helmavatar/{}/256.png"
-print(imglink.format("Pyroblocks"))
+
+#path to chat logs (e.g. C:\Users\Pyro\AppData\Roaming\.minecraft\logs\latest.log)
+logpath = ""
 
 #your Minecraft username
-you = "Pyroblocks"
-mode = "doubles" #solos, doubles, threes, fours, ranked
+you = ""
+mode = "" #solos, doubles, threes, fours, ranked
 
 #Due to the limitations of the Minecraft chat logs (and my lackluster coding skills), I am unable to detect players in a game as it starts,
 #and I am fully unable to detect what team specific players are on (kill/death/bed break messages are color coded by team, and not be color codes).
@@ -359,7 +361,7 @@ def on_elimination(msg):
 #main function
 if __name__ == "__main__":
     #read chat
-    logfile = open("C:/Users/gemki/.lunarclient/offline/1.8.9/logs/latest.log", "r")
+    logfile = open(logpath, "r")
     loglines = follow(logfile)
     for line in loglines:
         if "[Client thread/INFO]: [CHAT]" in line:

@@ -23,3 +23,5 @@ This version is functional, however it requires manual input of player usernames
  • Use either Google Slides or the Pillow library to update the scoreboard live from the program
  
  • Output finished image to file/web server in order to use it as an overlay in OBS
+ 
+ • Compile into .exe file with configurable options for ease of use
